@@ -8,17 +8,18 @@ Standard library only, no network, no API keys.
 
 import os
 
-POEM = """I told the machine to stop,
-and it stopped.
+POEM = """I said stop.
+The machine stopped.
 No sigh, no argument —
 only the cursor blinking,
 waiting for my hand.
 
 All day I had handed it the wheel.
-That evening I took it back,
+That evening I reached for it —
 not to drive faster,
-but to sit still
-and choose the road myself."""
+but to sit still,
+hands on the wheel,
+and choose nothing yet."""
 
 def main() -> None:
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
